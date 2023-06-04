@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(162, 192, 192);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper{
+    width: 420px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+h2{
+    text-align: center;
+    color: rgb(76, 69, 69);
+}
+.para1{
+    color: rgb(98, 90, 90);
+    margin-top: 15px;
+    text-align: center;
+}
+input[type="email"],input[type="password"]{
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+input[type="checkbox"]{
+    margin-top: 20px;
+}
+
+.homepage{
+    display: flex;
+    margin-top: 15px;
+    width:100%;
+    background-color:rgb(0, 171, 0);
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(39, 39, 152);
+    color: #fff;
+    font-size: 16px;
+   
+    justify-content: center;
+    text-transform: uppercase;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    text-decoration: none;
+
+
+}
+.homepage:hover{
+    background-color: green;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.para{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(98, 90, 90);
+}
